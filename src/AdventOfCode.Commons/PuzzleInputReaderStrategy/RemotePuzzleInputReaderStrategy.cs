@@ -79,6 +79,6 @@ public class RemotePuzzleInputReaderStrategy : IPuzzleInputReaderStrategy
         task.Wait();
 
         var content = task.Result;
-        return content.Split("\n")[..^1];
+        return content.Split("\n", StringSplitOptions.RemoveEmptyEntries);
     }
 }

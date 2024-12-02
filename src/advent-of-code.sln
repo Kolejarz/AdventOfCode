@@ -5,12 +5,16 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Commons", "AdventOfCode.Commons\AdventOfCode.Commons.csproj", "{79A796F8-0516-48B6-91DD-00EE788954F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdventOfCode.Usage", "AdventOfCode.Usage\AdventOfCode.Usage.csproj", "{2CE56D7F-C728-47AB-ADE1-2ABC17EABFAF}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9D5A0EF-004F-4163-8F74-31F89FA01DD0}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Year2015", "Year2015\Year2015.csproj", "{45112DD9-178D-4C68-BEFF-14C110632120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode.Runner", "AdventOfCode.Runner\AdventOfCode.Runner.csproj", "{39764424-9B47-4AB1-BDE7-7E8CFB07E40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Year2024", "Year2024\Year2024.csproj", "{4FECA1C1-F171-4C45-931A-0C174F80B8B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +26,18 @@ Global
 		{79A796F8-0516-48B6-91DD-00EE788954F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79A796F8-0516-48B6-91DD-00EE788954F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79A796F8-0516-48B6-91DD-00EE788954F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2CE56D7F-C728-47AB-ADE1-2ABC17EABFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CE56D7F-C728-47AB-ADE1-2ABC17EABFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CE56D7F-C728-47AB-ADE1-2ABC17EABFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CE56D7F-C728-47AB-ADE1-2ABC17EABFAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45112DD9-178D-4C68-BEFF-14C110632120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45112DD9-178D-4C68-BEFF-14C110632120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45112DD9-178D-4C68-BEFF-14C110632120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45112DD9-178D-4C68-BEFF-14C110632120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39764424-9B47-4AB1-BDE7-7E8CFB07E40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39764424-9B47-4AB1-BDE7-7E8CFB07E40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39764424-9B47-4AB1-BDE7-7E8CFB07E40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39764424-9B47-4AB1-BDE7-7E8CFB07E40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FECA1C1-F171-4C45-931A-0C174F80B8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FECA1C1-F171-4C45-931A-0C174F80B8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FECA1C1-F171-4C45-931A-0C174F80B8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FECA1C1-F171-4C45-931A-0C174F80B8B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
