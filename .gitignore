@@ -476,3 +476,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 /src/AdventOfCode.Commons/Configuration.cs
+/src/AdventOfCode.Commons/PuzzleInputReaderStrategy/Configuration.cs
